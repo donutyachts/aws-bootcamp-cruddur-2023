@@ -17,7 +17,9 @@ There are a number of IAM best practices, [Security best practices in IAM](https
 
 ### 2. Set a billing alarm, Set a AWS Budget :white_check_mark:
 This was easy to do. Impressed with ability to not only set alerts but also apply actions to each alert. Did the following:
-- Created billing alert when spend reaches 20, 40, 60, and 80 percent of budget of $100.
+- Created AWS Budget, MyMonthlyBudget, of $100.
+> After creating a budget, it can take up to 24 hours to populate all of your spend data.
+- Created billing alert when spend reaches 20, 40, 60, and 80 percent of budget.
 - Created billing alert when spend is forecast to reach 100 percent of budget.
 - Created billing alert when spend has actually exceeded budget.
 
