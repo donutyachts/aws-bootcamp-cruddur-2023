@@ -32,11 +32,11 @@ Followed this tutorial for creating the AWS Budget and alerts: [Control your AWS
 ### 7. Open a support ticket and request a service limit
 
 ## Learnings from week 0
-Problem: There is soooo much documentation from AWS and generally online from tons of people about the same topics that it becomes overwhelming. So so much.
+Problem: There is soooo much documentation from AWS and generally online from tons of people about the same topics that it becomes overwhelming. It's like the cereal aisle at Freshco. So. Many. Choices.
 
 Decision: I've decided to begin with AWS documentation and search elsewhere only if I need for more context or examples. These are my reasons:
-- The AWS documentation is actually good. Plus I'll my increase familiarity with AWS documentation particularly where to find the good stuff and begin bookmarking the heck out of it. AWS must have a hundred plus team just on documention. Sheesh. Take me to the source.
-- The value add of non-AWS documentation is a bit iffy. Searching online and scanning multiple websites wastes time especially when these articles are duplicates of each other. The authors likely read the AWS documentation or someone else's article and then wrote their article for personal clout. The exception, of course, are articles from authoritative sources or any source that adds value (i.e. gives insight or imparts knowledge beyond click-throughs).
+- The AWS documentation is actually good. Plus, I'll increase my familiarity with AWS documentation particularly where to find the good stuff and begin bookmarking the heck out of it. AWS must have a hundred plus team just on documention. Sheesh. Take me to the source.
+- The value add of non-authoritative or non-AWS documentation is a bit iffy. Searching online and scanning multiple websites wastes time especially when these articles are duplicates of each other. The authors likely read the AWS documentation or someone else's article and then wrote their article for personal clout. The exception, of course, are articles from authoritative sources or any source that adds value (i.e. gives insight or imparts knowledge beyond click-throughs).
 
 ## Cool stuff to attempt
 - Create an Organization, https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html
