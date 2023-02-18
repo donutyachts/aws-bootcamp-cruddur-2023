@@ -26,7 +26,24 @@ This was easy to do. Impressed with ability to not only set alerts but also appl
 Followed this tutorial for creating the AWS Budget and alerts: [Control your AWS costs](https://aws.amazon.com/getting-started/hands-on/control-your-costs-free-tier-budgets/).
 
 ### 3. Use EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue.
+[Amazon EventBridge setup and prerequisites](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-setup.html)
+
 ### 4. Review all the questions of each pillars in the Well Architected Tool (No specialized lens)
+[AWS lens](https://docs.aws.amazon.com/wellarchitected/latest/userguide/aws-lenses.html) aka additional best practices that are not part of the [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/). And here's the video Andrew made for this question: [Week 0 - Homework Idea (Well Architected Tool)](https://www.youtube.com/watch?v=i-hOfAJb3cE)
+
+Some of my favourite questions:
+- Operational Excellence: OPS 6. How do you mitigate deployment risks?
+- Security: SEC 10. How do you anticipate, respond to, and recover from incidents? Run game days
+- Reliability: REL 4. How do you design interactions in a distributed system to prevent failures? Make all responses idempotent
+- Cost Optimization: COST 2. How do you govern usage?, COST 3. How do you monitor usage and cost? COST 4. How do you decommission resources?
+- Sustainability: SUS 4. How do you take advantage of data access and usage patterns to support your sustainability goals?
+
+![Week 0 Well-Architected Tool](https://user-images.githubusercontent.com/95940735/219872974-08a1a6e2-0428-4712-9127-46341af6c812.png)
+
+Thoughts:
+- Andrew's suggestion, in his video, was to write what you did for each of the 58 questions. However, I thought this excessive mainly because what I did  would be thoroughly fabricated.
+- Interesting that these six pillars are not solely tech-centred but also about the organization, team members, and cost.
+
 ### 5. Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts
 This morning's (Sat-11-Feb-2023) week 0 live stream walked through the creation of the conceptual diagram for Crudder. I followed along and cleaned up the diagram. Go here for the [Crudder diagrams (conceptual, logical) on Lucidchart](https://lucid.app/documents/view/988a4404-009f-4940-8455-b961219c18ae)
 ### 6. Research the technical and service limits of specific services and how they could impact the technical path for technical flexibility. 
