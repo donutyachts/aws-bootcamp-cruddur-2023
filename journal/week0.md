@@ -56,7 +56,7 @@ Sources:
 ### 5. Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts
 Evidence:
 - [Conceptual and logical diagrams](https://lucid.app/documents/view/988a4404-009f-4940-8455-b961219c18ae)
-- [CI/CID diagram](https://lucid.app/documents/view/08729562-4a66-477c-8909-d9f95356db97)
+- [CI/CID diagram](https://lucid.app/documents/view/08729562-4a66-477c-8909-d9f95356db97) (include tools - VS Code, Gitpod, GitHub, AWS, etc. in the diagram)
 
 Notes:
 - There is a limit to the number of shapes that Lucidcharts allows across all of your documents, 60 shapes across 3 documents, which I discovered after creating the conceptual and logical diagrams. I created a new free trial account just for the CI/CID pipeline.
