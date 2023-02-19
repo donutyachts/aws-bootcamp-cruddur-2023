@@ -102,7 +102,8 @@ Sources:
 See above.
 
 ### Create a Budget
-See above.
+![Proof of budget created PNG](/assets/week0-proof-create-a-budget.png)
+![Proof of budget created CSV](/assets/week0-proof-create-a-budget.csv)
 
 ## Cool stuff to attempt when I have time
 - Create an Organization, https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html
