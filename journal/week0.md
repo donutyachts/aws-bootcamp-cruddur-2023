@@ -93,6 +93,7 @@ Installed AWS CLI on a Mac. Easy. Used the CLI to display installed version.
 
 Notes: 
 - AWS CLI has a command completion feature that you can install. More details on the aws-cli v2 GitHub.
+- I don't know why it doesn't display in .gitpod.yml though I installed the CLI after using GitPod.
 
 Sources:
 - [aws-cli v2 on GitHub](https://github.com/aws/aws-cli/tree/v2)
