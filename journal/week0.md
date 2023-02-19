@@ -100,7 +100,7 @@ Sources:
 - [AWS CLI Command Reference](https://awscli.amazonaws.com/v2/documentation/api/latest/index.html)
 
 ### Create a Billing Alarm
-See above.
+![Proof of billing alarms created](/assets/week0-proof-create-a-billing-alarm.png)
 
 ### Create a Budget
 ![Proof of budget created PNG](/assets/week0-proof-create-a-budget.png)
