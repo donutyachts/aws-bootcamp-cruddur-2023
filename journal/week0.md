@@ -1,7 +1,7 @@
 # Week 0 — Billing and Architecture
 
 ## Homework challenges  
-### 1. Destroy your root account, Set MFA, IAM role :white_check_mark:
+### 1. Destroy your root account, Set MFA, IAM role
 
 This challenge confused me because I just don't see how the root account can be deleted, without closing the AWS account, and thereafter set MFA and create a new IAM role on the same AWS account. And AWS documentation simply does not reference directly or indirectly that a root account can be destroyed without closing the AWS account as well, [AWS Account Root User](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html). Sooo, I did the following:
 
@@ -15,7 +15,7 @@ You can register up to 8 MFA devices of any combination of the currently support
 
 There are a number of IAM best practices, [Security best practices in IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html). Going forward I will only login to the AWS console using the administrator user unless the root user is required for those few root-user-only tasks.
 
-### 2. Set a billing alarm, Set a AWS Budget :white_check_mark:
+### 2. Set a billing alarm, Set a AWS Budget
 This was easy to do. Impressed with ability to not only set alerts but also apply actions to each alert. Did the following:
 - Created AWS Budget, MyMonthlyBudget, of $100.
 > After creating a budget, it can take up to 24 hours to populate all of your spend data.
@@ -30,7 +30,7 @@ I may return to this, but currently I don't have the time to complete.
 
 Source: [Amazon EventBridge setup and prerequisites](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-setup.html)
 
-### 4. Review all the questions of each pillars in the Well Architected Tool (No specialized lens) :white_check_mark:
+### 4. Review all the questions of each pillars in the Well Architected Tool (No specialized lens)
 ![Proof of review of questions in Well-Architected Tool](/assets/week0-proof-well-architected-tool-pillar-question-review.png)
 
 Notes:
@@ -57,7 +57,7 @@ Notes:
 - It's not a great diagram, but I will likely return and improve it.
 - Understanding the plain language practical application of each step in the pipeline is needed.
 
-Source: [Week 0 - Lucid Charts Lets Recreate the Cruddur Logical Diagram](https://www.youtube.com/watch?v=K6FDrI_tz0k)
+Source: [Week 0 - Lucid Charts Lets Recreate the Cruddur Logical Diagram (video)](https://www.youtube.com/watch?v=K6FDrI_tz0k)
 
 ### 6. Research the technical and service limits of specific services and how they could impact the technical path for technical flexibility. 
 I may return to this, but currently I don't have the time to complete.
@@ -68,10 +68,10 @@ I may return to this, but currently I don't have the time to complete.
 ## Student portal checklist 
 
 ### Recreate Conceptual Diagram in Lucid Charts or on a Napkin
-See above.
+Duplicate. See above.
 
 ### Recreate Logical Architectual Diagram in Lucid Charts
-See above.
+Duplicate. See above.
 
 ### Create an Admin User
 Created an "administrator" user in the AWS console then configured AWS CLI for the administrator user to show list of users.
