@@ -26,17 +26,12 @@ This was easy to do. Impressed with ability to not only set alerts but also appl
 Followed this tutorial for creating the AWS Budget and alerts: [Control your AWS costs](https://aws.amazon.com/getting-started/hands-on/control-your-costs-free-tier-budgets/).
 
 ### 3. Use EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue.
-Evidence:
-
-Notes:
-- I may return to this, but current I don't have the time to complete.
+I may return to this, but currently I don't have the time to complete.
 
 Source: [Amazon EventBridge setup and prerequisites](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-setup.html)
 
 ### 4. Review all the questions of each pillars in the Well Architected Tool (No specialized lens) :white_check_mark:
-Evidence:
-
-![Week 0 Well-Architected Tool](https://user-images.githubusercontent.com/95940735/219872974-08a1a6e2-0428-4712-9127-46341af6c812.png)
+![Proof of review of questions in Well-Architected Tool](/assets/week0-proof-well-architected-tool-pillar-question-review.png)
 
 Notes:
 - Andrew's suggestion, in his video, was to write what you did for each of the 58 questions. However, I thought this excessive mainly because what I did  would be thoroughly fabricated. 
@@ -54,9 +49,8 @@ Sources:
 - [Week 0 - Homework Idea (Well Architected Tool)](https://www.youtube.com/watch?v=i-hOfAJb3cE)
 
 ### 5. Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts
-Evidence:
 - [Conceptual and logical diagrams](https://lucid.app/documents/view/988a4404-009f-4940-8455-b961219c18ae)
-- [CI/CID diagram](https://lucid.app/documents/view/08729562-4a66-477c-8909-d9f95356db97) (include tools - VS Code, Gitpod, GitHub, AWS, etc. in the diagram)
+- [CI/CID diagram](https://lucid.app/documents/view/08729562-4a66-477c-8909-d9f95356db97)
 
 Notes:
 - There is a limit to the number of shapes that Lucidcharts allows across all of your documents, 60 shapes across 3 documents, which I discovered after creating the conceptual and logical diagrams. I created a new free trial account just for the CI/CID pipeline.
@@ -66,71 +60,51 @@ Notes:
 Source: [Week 0 - Lucid Charts Lets Recreate the Cruddur Logical Diagram](https://www.youtube.com/watch?v=K6FDrI_tz0k)
 
 ### 6. Research the technical and service limits of specific services and how they could impact the technical path for technical flexibility. 
-Evidence:
-
-Notes:
-- I may return to this, but current I don't have the time to complete.
-
-Sources: 
+I may return to this, but currently I don't have the time to complete.
 
 ### 7. Open a support ticket and request a service limit
-Evidence:
-
-Notes:
-- I may return to this, but current I don't have the time to complete.
-
-Sources:
+I may return to this, but currently I don't have the time to complete.
 
 ## Student portal checklist 
 
 ### Recreate Conceptual Diagram in Lucid Charts or on a Napkin
-
-- See above.
+See above.
 
 ### Recreate Logical Architectual Diagram in Lucid Charts
-
-- See above.
+See above.
 
 ### Create an Admin User
-Proof:
-- Created an "administrator" user in the AWS console then configured AWS CLI for the administrator user to show list of users.
-![Proof of admin user creation](assets/week0-proof-create-an-admin-user.png)
+Created an "administrator" user in the AWS console then configured AWS CLI for the administrator user to show list of users.
+
+![Proof of admin user creation](/assets//week0-proof-create-an-admin-user.png)
 
 ### Use CloudShell
+![Proof that I used CloudShell](/assets/week0-proof-use-cloudshell.png)
 
 ### Generate AWS Credentials
-Proof:
-- Generated the access key credentials for "administrator" user.
+Generated the access key credentials for "administrator" user.
 
-![Proof that AWS access key credentials generated](assets/week0-proof-generate-aws-credentials.png)
-
-Notes:
-
-Sources:
+![Proof that AWS access key credentials generated](/assets//week0-proof-generate-aws-credentials.png)
 
 ### Installed AWS CLI
-Proof:
-- Installed AWS CLI on a Mac. Easy. Used the CLI to display installed version.
+Installed AWS CLI on a Mac. Easy. Used the CLI to display installed version.
 
-![Proof that AWS CLI is installed](assets/week0-proof-installed-aws-cli.png)
+![Proof that AWS CLI is installed](/assets/week0-proof-installed-aws-cli.png)
 
 Notes: 
 - AWS CLI has a command completion feature that you can install. More details on the aws-cli v2 GitHub.
 
 Sources:
 - [aws-cli v2 on GitHub](https://github.com/aws/aws-cli/tree/v2)
+- [AWS CLI Command Reference](https://awscli.amazonaws.com/v2/documentation/api/latest/index.html)
 
 ### Create a Billing Alarm
+See above.
 
 ### Create a Budget
-
-
+See above.
 
 ## Cool stuff to attempt when I have time
 - Create an Organization, https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html
 - Implement an identity provider like Okta for access to the AWS account. (Considered a best practice.)
 - Implement secrets management, https://geekflare.com/secret-management-software/
-
-Sources: 
-- [External FREE AWS Cloud Project Bootcamp — Outline] (https://docs.google.com/document/d/19XMyd5zCk7S9QT2q1_Cg-wvbnBwOge7EgzgvtVCgcz0/edit#)
-- [Updating Your Journal in Github](https://www.youtube.com/watch?v=mWaSBRJhUFM&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=20)
