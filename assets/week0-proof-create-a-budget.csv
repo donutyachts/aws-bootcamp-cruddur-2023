@@ -1,0 +1,2 @@
+Budget Type,Budget Name,Budgeted Cost,Current Cost,Forecasted Cost,Unit,Filters Applied,Budget Period,Start Date,End Date,Current vs Budgeted Costs (Absolute Variance),Forecasted vs Budgeted Costs (Absolute Variance),Current vs Budgeted Costs (% Variance),Forecasted vs Budgeted Costs (% Variance)
+Cost,MyMonthlyBudget,100.0,0.0,"'-",USD,none,Monthly,02/01/23,06/15/87,-100,0,0,0
