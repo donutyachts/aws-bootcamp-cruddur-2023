@@ -81,6 +81,51 @@ Notes:
 
 Sources:
 
+## Student portal checklist 
+
+### Recreate Conceptual Diagram in Lucid Charts or on a Napkin
+
+- See above.
+
+### Recreate Logical Architectual Diagram in Lucid Charts
+
+- See above.
+
+### Create an Admin User
+Proof:
+- Created an "administrator" user in the AWS console then configured AWS CLI for the administrator user to show list of users.
+![Proof of admin user creation](assets/week0-proof-create-an-admin-user.png)
+
+### Use CloudShell
+
+### Generate AWS Credentials
+Proof:
+- Generated the access key credentials for "administrator" user.
+
+![Proof that AWS access key credentials generated](assets/week0-proof-generate-aws-credentials.png)
+
+Notes:
+
+Sources:
+
+### Installed AWS CLI
+Proof:
+- Installed AWS CLI on a Mac. Easy. Used the CLI to display installed version.
+
+![Proof that AWS CLI is installed](assets/week0-proof-installed-aws-cli.png)
+
+Notes: 
+- AWS CLI has a command completion feature that you can install. More details on the aws-cli v2 GitHub.
+
+Sources:
+- [aws-cli v2 on GitHub](https://github.com/aws/aws-cli/tree/v2)
+
+### Create a Billing Alarm
+
+### Create a Budget
+
+
+
 ## Cool stuff to attempt when I have time
 - Create an Organization, https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html
 - Implement an identity provider like Okta for access to the AWS account. (Considered a best practice.)
