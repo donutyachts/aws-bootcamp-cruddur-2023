@@ -92,7 +92,7 @@ Notes: I may return to this, but current I don't have the time to complete.
 
 Source: [Amazon EventBridge setup and prerequisites](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-setup.html)
 
-### Review all the questions of each pillars in the Well Architected Tool (No specialized lens) :white_check_mark:
+### Review all the questions of each pillars in the Well Architected Tool (No specialized lens)
 ![Week 0 Well-Architected Tool](https://user-images.githubusercontent.com/95940735/219872974-08a1a6e2-0428-4712-9127-46341af6c812.png)
 
 Notes:
