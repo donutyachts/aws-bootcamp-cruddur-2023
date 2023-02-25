@@ -1,6 +1,6 @@
 tasks:
   - name: AWS CLI
-    init: python -m pip install awscli
+    init: npm install https://github.com/aws/aws-cli.git
 
 ports:
   - port: 3000
