@@ -54,15 +54,16 @@ Notes:
 Source: [Week 1 instructions on omenking's repo shared on live stream](https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-1/journal/week1.md)
 
 ### 8. Document the Notification Endpoint for the OpenAI Document (32mm13ss; same video for items 9 and 10)
+![Proof documentation for notifications endpoint creted in OpenAI document](/assets/week1-proof-documentation-for-notifications-backend-endpoint-created-in-openai-document.png)
+
+### 9. Write a Flask Backend Endpoint for Notifications
 Notes:
 - Encountered a number of erros in creating the notifications endpoint and all due to improperly tabbing in the python files. I get it since python is tab-sensitive.
 
 ![Proof backend notifications endpoint created](/assets/week1-proof-backend-notifications-endpoint-created.png)
 
-![Proof frontend displays notifications data from backend](/assets/week1-proof-frontend-updated-to-display-notifications-data-from-backend.png)
-### 9. Write a Flask Backend Endpoint for Notifications 
-
 ### 10. Write a React Page for Notifications
+![Proof frontend displays notifications data from backend](/assets/week1-proof-frontend-updated-to-display-notifications-data-from-backend.png)
 
 ### 11. Run DynamoDB Local Container and ensure it works (19mm18ss; same video for item 12)
 
