@@ -1,26 +1,37 @@
 # Week 1 — App Containerization
 
-### 1. Watch How to Ask for Technical Help
+### 1. Watch How to Ask for Technical Help (26mm30ss)
+Notes: When asking for help, do the heavy lifting and include:
+1. Link to article you read about the error.
+2. Screenshot of full error.
+3. Code snippet.
+4. Link to gist with entire code.
+5. Link to code committed in repo.
+6. Screenshot(s) of troubleshooting done using browser Inspector panel.
 
-#### 2. Watched Grading Homework Summaries
+### 2. Watched Grading Homework Summaries (06mm42ss)
+Notes: Uh-oh, I need to imporve my summaries!
 
-### 3. Watched Week 1 - Live Streamed Video
+### 3. Watched Week 1 - Live Streamed Video (02hh03mm04ss; same video for item 7)
+Notes:
 - Successfully followed along with the live stream. However, I encountered an issue. After saving text changes in backend-flask/services/home_activities.py they did not reflect on the frontend localhost:3000. Stopped and restarted both containers though now the entire center column of the page (where all the posts would have normally display) is empty though everything else displays on the page.
 
-### 4. Remember to Commit Your Code
+### 4. Remember to Commit Your Code (01mm55ss)
+Notes: I've been using git commands in terminal window of VS to stage `git add <filename>` and commit `git commit -m "Comment."` locally as well as push updates `git push` to the repo. I've also saved updates directly on GitHub. Doing this created a problem when I returned to edit files in VS. The changes I made directly on GitHub where not synced to my local copy of the repo. Going forward, I'll first `git pull` to ensure I get the latest version.
 
-### 5. Watcked Chirag's Week 1 - Spending Considerations
+### 5. Watcked Chirag's Week 1 - Spending Considerations (10mm08ss)
+Notes: Yes, noticed that environment went inactive after a certain time of inactivity, 30 minutes.
 
-### 6. Watched Ashish's Week 1 - Container Security Considerations
+### 6. Watched Ashish's Week 1 - Container Security Considerations (41mm15ss)
 
 ### 7. Containerize Application (Dockerfiles, Docker Compose)
 
-### 8. Document the Notification Endpoint for the OpenAI Document
+### 8. Document the Notification Endpoint for the OpenAI Document (32mm13ss; same video for items 9 and 10)
 
-### 9. Write a Flask Backend Endpoint for Notifications
+### 9. Write a Flask Backend Endpoint for Notifications 
 
 ### 10. Write a React Page for Notifications
 
-### 11. Run DynamoDB Local Container and ensure it works
+### 11. Run DynamoDB Local Container and ensure it works (19mm18ss; same video for item 12)
 
 ### 12. Run Postgres Container and ensure it works
