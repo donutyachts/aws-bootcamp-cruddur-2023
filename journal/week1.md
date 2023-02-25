@@ -73,11 +73,14 @@ Notes:
 
 ### 11. Run DynamoDB Local Container and ensure it works (19mm18ss; same video for item 12)
 Notes:
-- 
+- Got stuck when I saw Andrew type `aws` in the terminal in VSCode and get a response! I opted to manually install the AWS CLI to move on and complete the task. I'll return to this later.
+- While `aws configure` is not ideal it would have been good to set it up as a prerequisite. 
 
-Source: 
+![Gitpod manual install of AWS CLI](/assets/week1-gitpod-aws-cli-manual-install.png)
 
-https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-1/journal/week1.md
+![Proof DynamoDB local create table](/assets/week1-proof-dynamodb-create-table-aws-cli.png)
+
+![Proof DynamoDB local add item, list table, scan table](/assets/week1-proof-dynamodb-add-item-list-tables-scan-table-music.png)
 
 ### 12. Run Postgres Container and ensure it works
 Notes:
