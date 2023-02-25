@@ -73,7 +73,8 @@ Notes:
 
 ### 11. Run DynamoDB Local Container and ensure it works (19mm18ss; same video for item 12)
 Notes:
-- Got stuck when I saw Andrew type `aws` in the terminal in VSCode and get a response! I opted to manually install the AWS CLI to move on and complete the task. I ended up simply coping the `.gitpod.yml` from the ![https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-1-add-postgres-dynamodb/.gitpod.yml](branch).
+- Observing that Docker extension, although installed in VSCode, disappears whenever I open the Gitpod workstation. Oh well I just added it back each time.
+- Got stuck when I saw Andrew type `aws` in the terminal in VSCode and get a response! I opted to manually install the AWS CLI to move on and complete the task. Later, I copied `.gitpod.yml` from the respective ![https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-1-add-postgres-dynamodb/.gitpod.yml](branch).
 
 ![Gitpod manual install of AWS CLI](/assets/week1-gitpod-aws-cli-manual-install.png)
 
@@ -83,4 +84,8 @@ Notes:
 
 ### 12. Run Postgres Container and ensure it works
 Notes:
-- 
+- The connection to postgres though the client didn't work for me. Received following error:
+> Connection error! connect ETIMEDOUT
+- However, did connect to postgres through terminal.
+
+![Proof of postgres running locally and successful connection](/assets/week1-proof-postgres-connection-terminal.png)
