@@ -32,6 +32,8 @@ Notes:
 - Ugh. [You have to stop the container to perform a change, security updates, and you cannot run multiple of the same containers at the same time from a single Docker file.](https://www.youtube.com/watch?v=OjZz4D0B-cA&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=25&t=2272s) AWS has auto-scaling for containers.
 -  So much to do a know about security but it's facinating.
 
+![Proof ran Snyk on repo](/assets/week1-proof-scan-vulnerable-repo-with-snyk.png)
+
 Source: [Cloud Security Bootcamp resources](https://www.cloudsecuritybootcamp.com/)
 
 ### 7. Containerize Application (Dockerfiles, Docker Compose)
