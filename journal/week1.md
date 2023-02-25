@@ -30,7 +30,7 @@ Notes:
 - Remember that Amazon Inspector is for vulnerability scanning of Docker container images.
 - I didn't understand how the secrets are rotated using AWS Secrets Manager. Reading more for a live example.
 - Ugh. [You have to stop the container to perform a change, security updates, and you cannot run multiple of the same containers at the same time from a single Docker file.](https://www.youtube.com/watch?v=OjZz4D0B-cA&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=25&t=2272s) AWS has auto-scaling for containers.
--  So much to do a know about security but it's facinating.
+-  So much to do and know about security but it's facinating.
 
 ![Proof ran Snyk on repo](/assets/week1-proof-scan-vulnerable-repo-with-snyk.png)
 
