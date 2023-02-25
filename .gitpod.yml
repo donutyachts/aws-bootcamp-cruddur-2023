@@ -1,12 +1,17 @@
 tasks:
-  - name: AWS CLI
-    init: npm install https://github.com/aws/aws-cli.git
+  - name: aws cli
+    init: python -m pip install awscli
+    command: aws --version
 
 ports:
   - port: 3000
     visibility: public
+    onOpen: open-preview
+    description: frontend
   - port: 4567
     visibility: public
+    onOpen: open-preview
+    description: backend
 
 vscode:
   extensions:
