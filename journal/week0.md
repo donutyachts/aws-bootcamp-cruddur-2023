@@ -19,6 +19,8 @@ Notes:
 - I have two separate AWS accounts that I created a different times: one non-free tier and one free tier. Although not covered in the video, I had to take send an invitation in order to get the existing account to display underneath an OU. Pretty cool.
 - Cloned [Ashish's SCP repo](https://github.com/hashishrajan/aws-scp-best-practice-policies) and created/applied the Prevent Leave Organization SCP.
 
+Source: [Exmample service control policies](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples.html)
+
 ### 4. Recreate Conceptual Diagram in Lucid Charts or on a Napkin
 - [Conceptual and logical diagrams](https://lucid.app/documents/view/988a4404-009f-4940-8455-b961219c18ae)
 - [CI/CID diagram](https://lucid.app/documents/view/08729562-4a66-477c-8909-d9f95356db97) (include tools - VS Code, Gitpod, GitHub, AWS, etc. in the diagram)
