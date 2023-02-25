@@ -37,6 +37,7 @@ Notes:
 Source: [Cloud Security Bootcamp resources](https://www.cloudsecuritybootcamp.com/)
 
 ### 7. Containerize Application (Dockerfiles, Docker Compose)
+Notes:
 - Successfully followed along with the live stream. However, I encountered an issue:
     - After saving text changes in backend-flask/services/home_activities.py they did not reflect on the frontend localhost:3000. Stopped and restarted both containers though now the entire center column of the page (where all the posts would have normally display) is empty though everything else displays on the page.
 - Watched live stream recording. Containers made more sense on second pass.
@@ -53,6 +54,8 @@ Source: [Cloud Security Bootcamp resources](https://www.cloudsecuritybootcamp.co
 Source: [Week 1 instructions on omenking's repo shared on live stream](https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-1/journal/week1.md)
 
 ### 8. Document the Notification Endpoint for the OpenAI Document (32mm13ss; same video for items 9 and 10)
+Notes:
+- 
 
 ### 9. Write a Flask Backend Endpoint for Notifications 
 
