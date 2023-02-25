@@ -17,3 +17,9 @@ https://docs.npmjs.com/cli/v6/commands/npm-install/
 https://www.gitpod.io/guides/gitpodify
 
 https://gitpod.io/user/variables
+
+https://www.youtube.com/watch?v=2GD9xCzRId4
+
+https://github.com/openupthecloud/open-cloud-dev-box
+
+https://www.youtube.com/watch?v=E0haz6mymxY
