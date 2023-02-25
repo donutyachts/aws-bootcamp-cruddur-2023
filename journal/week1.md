@@ -42,6 +42,13 @@ Source: [Cloud Security Bootcamp resources](https://www.cloudsecuritybootcamp.co
 - Watched live stream recording. Containers made more sense on second pass.
     - During the live stream I had difficulty with port forwarding. I couldn't find the same screens that Andrew showed. Turns out my VSCode is different from his in that I have a [VSCode Exposed Ports tab](/assets/week1-vscode-exposed-ports.png) and [VSCode Ports tab](/assets/week1-vscode-ports.png) tabs.
     - I missed the `unset BACKEND_URL` and `unset FRONTEND_URL` commands on during the live stream. Caught it on second go.
+    - Successfully built and ran containers afer some CORS errors unrelated to port numbers. App loads in browser.
+
+![Proof backend and frontend containers running](/assets/week1-proof-containers-running-terminal.png)
+
+![Proof build containers for backend and frontend](/assets/week1-proof-build-containers-backend-frontend.png)
+
+![Proof app runs in browser and data displays](/assets/week1-proof-app-running-in-browser.png)
 
 Source: [Week 1 instructions on omenking's repo shared on live stream](https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-1/journal/week1.md)
 
