@@ -19,6 +19,10 @@ Notes:
 - I have two separate AWS accounts that I created a different times: one non-free tier and one free tier. Although not covered in the video, I had to take send an invitation in order to get the existing account to display underneath an OU. Pretty cool.
 - Cloned [Ashish's SCP repo](https://github.com/hashishrajan/aws-scp-best-practice-policies) and created/applied the Prevent Leave Organization SCP.
 
+![Proof of attempt to list SCP](/assets/week0-proof-security-aws-organizations-servcie-control-policy.png)
+
+The administrator user created doesn't have permissions to Organizations. Tried this after creating Organzation and adding free tier account into the Organization of a non-free tier account. 
+
 Source: [Exmample service control policies](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples.html)
 
 ### 4. Recreate Conceptual Diagram in Lucid Charts or on a Napkin
