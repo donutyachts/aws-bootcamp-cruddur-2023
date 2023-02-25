@@ -29,4 +29,6 @@ EXPOSE ${PORT}
 # 2. export BACKEND_URL="*"
 # 3. python3 -m flask run --host=0.0.0.0 --port=4567
 # Don't forget to unlock the port 4567 in the Exposed Ports tab of VSCode
+# Open app in browser by going to http://localhost:4567/api/activities/home to see the data in JSON
+# If you make an edit to the data in /backend-flask/services/home_activities.py then stop/restart flask
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]

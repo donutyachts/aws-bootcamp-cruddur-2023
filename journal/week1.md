@@ -13,7 +13,7 @@ Notes: When asking for help, do the heavy lifting and include:
 Notes: Uh-oh, I need to imporve my summaries!
 
 ### 3. Watched Week 1 - Live Streamed Video (02hh03mm04ss; same video for item 7)
-Notes: Successfully followed along with the live stream. However, I encountered an issue. After saving text changes in backend-flask/services/home_activities.py they did not reflect on the frontend localhost:3000. Stopped and restarted both containers though now the entire center column of the page (where all the posts would have normally display) is empty though everything else displays on the page.
+See item 7.
 
 ### 4. Remember to Commit Your Code (01mm55ss)
 Notes: I've been using git commands in terminal window of VS to stage `git add <filename>` and commit `git commit -m "Comment."` locally as well as push updates `git push` to the repo. I've also saved updates directly on GitHub. Doing this created a problem when I returned to edit files in VS. The changes I made directly on GitHub where not synced to my local copy of the repo. Going forward, I'll first `git pull` to ensure I get the latest version.
@@ -37,6 +37,17 @@ Notes:
 Source: [Cloud Security Bootcamp resources](https://www.cloudsecuritybootcamp.com/)
 
 ### 7. Containerize Application (Dockerfiles, Docker Compose)
+- Successfully followed along with the live stream. However, I encountered an issue:
+    1. After saving text changes in backend-flask/services/home_activities.py they did not reflect on the frontend localhost:3000. Stopped and restarted both containers though now the entire center column of the page (where all the posts would have normally display) is empty though everything else displays on the page.
+- Watched live stream recording. Containers made more sense on second pass.
+    - During the live stream I had difficulty with port forwarding. I couldn't find the same screens that Andrew showed. Turns out my VSCode is different from his in that I have a Exposed Ports and Ports tabs. See screenshots below.
+- 
+
+[Screenshot of VSCode Exposed Ports tab](/assets/week1-vscode-exposed-ports.png)
+
+[Screenshot of VSCode Ports tab](/assets/week1-vscode-ports.png)
+
+Source: [Week 1 instructions on omenking's repo shared on live stream](https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-1/journal/week1.md)
 
 ### 8. Document the Notification Endpoint for the OpenAI Document (32mm13ss; same video for items 9 and 10)
 
