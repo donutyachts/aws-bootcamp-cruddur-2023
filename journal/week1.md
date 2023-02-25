@@ -38,14 +38,10 @@ Source: [Cloud Security Bootcamp resources](https://www.cloudsecuritybootcamp.co
 
 ### 7. Containerize Application (Dockerfiles, Docker Compose)
 - Successfully followed along with the live stream. However, I encountered an issue:
-    1. After saving text changes in backend-flask/services/home_activities.py they did not reflect on the frontend localhost:3000. Stopped and restarted both containers though now the entire center column of the page (where all the posts would have normally display) is empty though everything else displays on the page.
+    - After saving text changes in backend-flask/services/home_activities.py they did not reflect on the frontend localhost:3000. Stopped and restarted both containers though now the entire center column of the page (where all the posts would have normally display) is empty though everything else displays on the page.
 - Watched live stream recording. Containers made more sense on second pass.
-    - During the live stream I had difficulty with port forwarding. I couldn't find the same screens that Andrew showed. Turns out my VSCode is different from his in that I have a Exposed Ports and Ports tabs. See screenshots below.
+    - During the live stream I had difficulty with port forwarding. I couldn't find the same screens that Andrew showed. Turns out my VSCode is different from his in that I have a [VSCode Exposed Ports tab](/assets/week1-vscode-exposed-ports.png) and [VSCode Ports tab](/assets/week1-vscode-ports.png) tabs. See screenshots below.
 - 
-
-[Screenshot of VSCode Exposed Ports tab](/assets/week1-vscode-exposed-ports.png)
-
-[Screenshot of VSCode Ports tab](/assets/week1-vscode-ports.png)
 
 Source: [Week 1 instructions on omenking's repo shared on live stream](https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-1/journal/week1.md)
 
