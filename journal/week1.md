@@ -55,10 +55,11 @@ Source: [Week 1 instructions on omenking's repo shared on live stream](https://g
 
 ### 8. Document the Notification Endpoint for the OpenAI Document (32mm13ss; same video for items 9 and 10)
 Notes:
-- Encountered a number of erros in creating the notifications endpoint and all due to improperly tabbing in the python files. I get is since python is tab-sensitive.
+- Encountered a number of erros in creating the notifications endpoint and all due to improperly tabbing in the python files. I get it since python is tab-sensitive.
 
 ![Proof backend notifications endpoint created](/assets/week1-proof-backend-notifications-endpoint-created.png)
 
+![Proof frontend displays notifications data from backend](/assets/week1-proof-frontend-updated-to-display-notifications-data-from-backend.png)
 ### 9. Write a Flask Backend Endpoint for Notifications 
 
 ### 10. Write a React Page for Notifications
