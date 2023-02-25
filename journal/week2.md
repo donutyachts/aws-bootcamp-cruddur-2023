@@ -15,3 +15,5 @@ https://www.linuxtek.ca/2023/02/21/diving-deeper-gitpod-cloud-development-enviro
 https://docs.npmjs.com/cli/v6/commands/npm-install/
 
 https://www.gitpod.io/guides/gitpodify
+
+https://gitpod.io/user/variables
