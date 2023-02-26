@@ -1,8 +1,17 @@
-## Week 0 Billing and Architecture
+## [Week 0 Billing and Architecture](/journal/week0.md)
+Dates: Sat-11-Feb - Fri-17-Feb
+Difficulty: Low
+Interest: Low
 
-## Week 1 App Containerization
+## [Week 1 App Containerization](/journal/week1.md)
+Dates: Sat-18-Feb - Fri-24-Feb
+Difficulty: Low
+Interest: Moderate
 
-## Week 2 Distributed Tracing (Sat-25-Feb - Fri-03-Mar)
+## [Week 2 Distributed Tracing](/journal/week2.md)
+Dates: Sat-25-Feb - Fri-03-Mar
+Difficulty: 
+Interest: Moderate
 
 ## Week 3 Decentralized Authentication
 
