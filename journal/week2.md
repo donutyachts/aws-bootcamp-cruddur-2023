@@ -23,3 +23,5 @@ https://www.youtube.com/watch?v=2GD9xCzRId4
 https://github.com/openupthecloud/open-cloud-dev-box
 
 https://www.youtube.com/watch?v=E0haz6mymxY
+
+Change css on app. https://coolors.co/
