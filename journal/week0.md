@@ -1,4 +1,6 @@
-# Week 0 — Billing and Architecture [Go to index](/journal/index.md)
+# Week 0 — Billing and Architecture
+
+[Go to index](/journal/index.md)
 
 ## Todo checklist (mirrored from checklist in student portal)
 
