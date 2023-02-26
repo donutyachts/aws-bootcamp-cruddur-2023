@@ -2,8 +2,6 @@
 
 [Go to index](/journal/index.md)
 
-## Todo checklist (mirrored from checklist in student portal)
-
 ### 1. Watched Week 0 - Live Streamed Video
 Notes: Attended live stream.
 
