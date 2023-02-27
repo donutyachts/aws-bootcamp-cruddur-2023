@@ -34,7 +34,7 @@
 .activity_item .activity_actions .icon{
   height: 18px;
   width: 18px;
-  fill: #fff;
+  fill: #000;
 }
 
 .activity_item .activity_actions .action:hover {

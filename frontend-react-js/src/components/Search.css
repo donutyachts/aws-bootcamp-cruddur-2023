@@ -6,7 +6,7 @@
   border-radius: 8px;
   width: 100%;
   outline: none;
-  color: #fff;
+  color: #000;
 }
 .search_field input[type='text']:focus {
   border: solid 1px rgb(149,0,255,1);

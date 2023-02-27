@@ -38,12 +38,12 @@
 
 .profile-info .profile-display-name {
   font-weight: 800;
-  color: #fff;
+  color: #000;
   font-size: 14px;
 }
 
 .profile-info .profile-username {
-  color: rgb(255,255,255,0.5);
+  color: #000;
   font-size: 14px;
 }
 

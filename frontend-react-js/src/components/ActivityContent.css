@@ -10,7 +10,7 @@
 }
 
 .activity_content_wrap .activity_avatar {
-  background: rgb(149,0,255);
+  background: #e6c74c;
   height: 60px;
   width: 60px;
   border-radius: 999px;
@@ -49,7 +49,7 @@
 }
 
 .activity_content .activity_times .expires_at {
-  color: rgb(149,0,255);
+  color: #cc92c2;
   font-size: 14px;
   display: flex;
   gap: 2px;
@@ -61,7 +61,7 @@
 }
 
 .activity_content .message {
-  color: #fff;
+  color: #000;
   font-size: 16px;
   margin-top: 8px;
 }
