@@ -18,3 +18,8 @@ Notes:
 - Use https://honeycomb-whoami.glitch.me/ to find out from where you got the Honeycomb API key.
 - Found a mistake in app.py after watching recording of week 2 live stream. Did not have 'simple' in 'simple_processor'. Added.
 - Began using git tags to denote commits corresponding to each week of bootcamp, https://git-scm.com/book/en/v2/Git-Basics-Tagging.
+
+## Instrument AWS X-Ray
+
+Notes:
+- Find the Groups and Rules by going to Cloudwatch > Settings > Traces > View settings.
