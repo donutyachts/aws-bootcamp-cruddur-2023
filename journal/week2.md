@@ -1,6 +1,10 @@
 # Week 2 — Distributed Tracing
 
 ## Instrument Honeycomb with OTEL
+![Proof 1 of Honeycomb instrumentation with OTEL](/assets/week2-proof-instrument-honeycomb-with-otel-1.png)
+
+![Proof 2 of Honeycomb instrumentation with OTEL](/assets/week2-proof-instrument-honeycomb-with-otel-2.png)
+
 Notes:
 - Environment variables
     - If you do not export the env var, then env var is available only in current shell. 
