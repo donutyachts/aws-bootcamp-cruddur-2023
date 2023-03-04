@@ -29,7 +29,7 @@ services:
       AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
       AWS_REGION: "ca-central-1"
     command:
-      - "xray --local-mode -b --log-level dev xray-daemon:2000"
+      - "xray -o --log-level dev --log-file "/var/log/xray-daemon.log" -b xray-daemon:2000"
     ports:
       - 2000:2000/udp
   dynamodb-local:
