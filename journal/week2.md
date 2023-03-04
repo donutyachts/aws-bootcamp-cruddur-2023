@@ -14,7 +14,7 @@ Notes:
 - Best practice: Use a single API key per project and use the same service name for different components of same project.
 - OTEL = Open Telemetry, https://opentelemetry.io/. See also [Cloud Native Computing Foundation](https://www.cncf.io/).
 - Added 'init: npm install' to .gitpod.yml, https://docs.npmjs.com/cli/v6/commands/npm-install/.
-- [Source instructions for getting data from app into Honeycomb](https://docs.honeycomb.io/getting-data-in/opentelemetry/python/)
+- [Source instructions](https://docs.honeycomb.io/getting-data-in/opentelemetry/python/) for getting data from app into Honeycomb.
 - Use https://honeycomb-whoami.glitch.me/ to find out from where you got the Honeycomb API key.
 - Found a mistake in app.py after watching recording of week 2 live stream. Did not have 'simple' in 'simple_processor'. Added.
 - Began using git tags to denote commits corresponding to each week of bootcamp, https://git-scm.com/book/en/v2/Git-Basics-Tagging.
