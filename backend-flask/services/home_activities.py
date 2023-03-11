@@ -12,7 +12,7 @@ class HomeActivities:
       results = [{
         'uuid': '68f126b0-1ceb-4a33-88be-d90fa7109eee',
         'handle':  'Andrew Brown',
-        'message': 'Cloud is very fun! [This is an edit. Another. One more. Detect this. And why not. DEBUG]',
+        'message': 'Cloud is very fun! [Friday buring the midnight oil.]',
         'created_at': (now - timedelta(days=2)).isoformat(),
         'expires_at': (now + timedelta(days=5)).isoformat(),
         'likes_count': 5,
