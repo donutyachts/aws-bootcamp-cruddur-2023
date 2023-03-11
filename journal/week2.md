@@ -56,11 +56,14 @@ Notes:
 - Left CloudWatch and X-Ray enabled.
 
 ## Integrate Rollbar and capture and error
+![No routes matched location "/rollbar/test" error](/assets/week2-error-no-routes-matched-location.png)
 
 Notes:
-- 
+- Watched the video, but plagued by the same error as above.
+    > No routes matched location "/@andrewbrown" 
 
 ## Learnings
 - Commit code immeditely after making the relevant change. Do not allow edits to multiple files and for various purposes accumulate. Reasons:
     - If you make one big commit across multiple files, then the comment in your commit applies to all files. 
     - Multiple, smaller, and more frequent commits means your comment is specific to the commit. And very useful if you ever need to revert changes.
+- Always 'docker compose up' after adding modules to requirements.txt otherwise you can expect to see a module not found error.
