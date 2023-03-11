@@ -48,8 +48,12 @@ Notes:
     - After spending time comparing code from Andrew's week-2-xray-subsegments branch and mine and some other useless attempts, I just let it be to preserve my sanity.
 
 ## Configure custom logger to send to CloudWatch Logs
+![Proof of logs going to CloudWatch 1](/assets/week2-proof-configure-custom-logger-to-send-to-cloudwatch-logs-1.png)
 
+![Proof of logs going to CloudWatch 2](/assets/week2-proof-configure-custom-logger-to-send-to-cloudwatch-logs-2.png)
 
+Notes:
+- Left CloudWatch and X-Ray enabled.
 
 ## Integrate Rollbar and capture and error
 
