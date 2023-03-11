@@ -24,3 +24,9 @@ Notes:
 - Find the Groups and Rules by going to Cloudwatch > Settings > Traces > View settings.
 - A note about what the daemon options mean: https://docs.aws.amazon.com/xray/latest/devguide/xray-daemon-configuration.html
 - Nightmare of a time getting data to X-Ray. Logs shows 'Starting proxy http server on 0.0.0.0:2000' but no data is sent. Appears to stall or hang. This is the [exact issue described by other bootcampers](https://discord.com/channels/1055552619441049660/1079890204019654666). Tried both of the suggestions - docker compose restart and destroy and rebuild everything - though the issue persists. At wit's end.
+
+
+## Learnings
+- Commit code immeditely after making the relevant change. Do not allow edits to multiple files and for various purposes accumulate. Reasons:
+- - If you make one big commit across multiple files, then the comment in your commit applies to all files. 
+- - Multiple, smaller, and more frequent commits means your comment is specific to the commit. And very useful if you ever need to revert changes.
