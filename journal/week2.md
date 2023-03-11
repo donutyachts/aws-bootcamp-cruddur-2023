@@ -33,6 +33,9 @@ Notes:
 
 ## Instrument AWS X-Ray Subsegments
 
+## Configure custom logger to send to CloudWatch Logs
+
+## Integrate Rollbar and capture and error
 
 ## Learnings
 - Commit code immeditely after making the relevant change. Do not allow edits to multiple files and for various purposes accumulate. Reasons:
