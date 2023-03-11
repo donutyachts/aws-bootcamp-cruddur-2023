@@ -30,11 +30,11 @@
 
 .activity_content a.activity_identity .display_name {
   font-weight: 800;
-  color: #fff;
+  color: #000000;
 }
 
 .activity_content  a.activity_identity .handle {
-  color: rgb(255,255,255,0.5);
+  color: rgb(0, 0, 0);
 }
 
 .activity_content .activity_times {
