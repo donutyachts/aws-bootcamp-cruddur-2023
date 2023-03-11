@@ -32,7 +32,11 @@ Notes:
     - Watched the live stream recording and it seems I initially missed the step of adding the X-Ray daemon in the docker-compose.yml file. ): Must have been that snack I got up to get during the live stream.
 
 ## Instrument AWS X-Ray Subsegments
-![New error after watching the video. Didn't know you could access appdomain.com/@userhandle](/assets/week2-instrument-aws-xray-subsegments-error.png)
+![New error after X-Ray implementation 1](/assets/week2-error-after-xray-implementation-1.png)
+
+![New error after X-Ray implementation 2](/assets/week2-error-after-xray-implementation-2.png)
+
+![New error after X-Ray implementation 3](/assets/week2-error-after-xray-implementation-3.png)
 
 Notes:
 - Watched the video but neither the error displayed in the video nor in Olga's article applied to me. 
