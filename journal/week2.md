@@ -28,5 +28,5 @@ Notes:
 
 ## Learnings
 - Commit code immeditely after making the relevant change. Do not allow edits to multiple files and for various purposes accumulate. Reasons:
--- If you make one big commit across multiple files, then the comment in your commit applies to all files. 
--- Multiple, smaller, and more frequent commits means your comment is specific to the commit. And very useful if you ever need to revert changes.
+    - If you make one big commit across multiple files, then the comment in your commit applies to all files. 
+    - Multiple, smaller, and more frequent commits means your comment is specific to the commit. And very useful if you ever need to revert changes.
