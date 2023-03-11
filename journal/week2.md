@@ -38,12 +38,14 @@ Notes:
 
 ![New error after X-Ray implementation 3](/assets/week2-error-after-xray-implementation-3.png)
 
+![New error after X-Ray implementation 4](/assets/week2-error-after-xray-implementation-4.png)
+
 Notes:
 - Watched the video but neither the error displayed in the video nor in Olga's article applied to me. 
     - Interestingly enough I was not getting any errors after the X-Ray video. 
     - After the X-Ray instrumentation I began to get the above error. 
-    > No routes matched location "/@andrewbrown" 
-    - After spending time comparing code from Andrew's week-2-xray-subsegments branch and mine and some other useless attempts, I just let it be for preserve my sanity.
+        > No routes matched location "/@andrewbrown" 
+    - After spending time comparing code from Andrew's week-2-xray-subsegments branch and mine and some other useless attempts, I just let it be to preserve my sanity.
 
 ## Configure custom logger to send to CloudWatch Logs
 
