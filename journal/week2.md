@@ -32,8 +32,18 @@ Notes:
     - Watched the live stream recording and it seems I initially missed the step of adding the X-Ray daemon in the docker-compose.yml file. ): Must have been that snack I got up to get during the live stream.
 
 ## Instrument AWS X-Ray Subsegments
+![New error after watching the video. Didn't know you could access appdomain.com/@userhandle](/assets/week2-instrument-aws-xray-subsegments-error.png)
+
+Notes:
+- Watched the video but neither the error displayed in the video nor in Olga's article applied to me. 
+    - Interestingly enough I was not getting any errors after the X-Ray video. 
+    - After the X-Ray instrumentation I began to get the above error. 
+    > No routes matched location "/@andrewbrown" 
+    - After spending time comparing code from Andrew's week-2-xray-subsegments branch and mine and some other useless attempts, I just let it be for preserve my sanity.
 
 ## Configure custom logger to send to CloudWatch Logs
+
+
 
 ## Integrate Rollbar and capture and error
 
