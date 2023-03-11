@@ -7,6 +7,7 @@ Notes:
 
 ## Watch Chirag Week 2 - Spending Considerations
 Notes:
+- Honeycomb free tier includes 20M monthly events. 
 - Rollbar free tier includes 5k events per month and data retention up to 30 days.
 - AWS X-Ray includes 100k traces recorded per month. It is an always free service.
 - AWS CloudWatch free tier includes 5GB of log data ingestion and 5 GB log data archive. It is an always free service.
