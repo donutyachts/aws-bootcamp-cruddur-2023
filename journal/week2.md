@@ -59,7 +59,7 @@ Notes:
 ![No routes matched location "/rollbar/test" error](/assets/week2-error-no-routes-matched-location.png)
 
 Notes:
-- Watched the video, but plagued by the same error as above.
+- Watched the video, but plagued by the same error as above. Posted [message on Discord week-2-tracing](https://discord.com/channels/1055552619441049660/1082342191516635146) channel.
     > No routes matched location "/@andrewbrown" 
 
 ## Learnings
