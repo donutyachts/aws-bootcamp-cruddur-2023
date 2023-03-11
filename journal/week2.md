@@ -1,5 +1,22 @@
 # Week 2 — Distributed Tracing
 
+## Watch Week 2 Live-Stream Video
+Notes:
+- Attended live stream.
+- Watched the recording.
+
+## Watch Chirag Week 2 - Spending Considerations
+Notes:
+- Rollbar free tier includes 5k events per month and data retention up to 30 days.
+- AWS X-Ray includes 100k traces recorded per month. It is an always free service.
+- AWS CloudWatch free tier includes 5GB of log data ingestion and 5 GB log data archive. It is an always free service.
+
+## Watched Ashish's Week 2 - Observability Security Considerations
+Notes:
+- Observability vs. Monitoring
+    - observability looks at the lifecycle of the application holistically; behaviour
+    - monitoring checks uptime of application and if error occurs; event
+
 ## Instrument Honeycomb with OTEL
 ![Proof 1 of Honeycomb instrumentation with OTEL](/assets/week2-proof-instrument-honeycomb-with-otel-1.png)
 
