@@ -57,6 +57,9 @@ Notes:
 
 ## Integrate Rollbar and capture and error
 
+Notes:
+- 
+
 ## Learnings
 - Commit code immeditely after making the relevant change. Do not allow edits to multiple files and for various purposes accumulate. Reasons:
     - If you make one big commit across multiple files, then the comment in your commit applies to all files. 
