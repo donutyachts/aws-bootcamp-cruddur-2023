@@ -78,4 +78,4 @@ Displays page after successfully resetting the password.
 ## Watch about different approaches to verifying JWTs
 
 Notes:
-- I've exhausted my GitPod credits and pondering that route to take: local, GitHub Codespace, or pay for Gitpod.
+- I've exhausted my GitPod credits and pondering that route to what: local, GitHub Codespace, or pay for Gitpod.
