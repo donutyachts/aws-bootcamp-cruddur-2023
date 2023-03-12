@@ -56,19 +56,23 @@ Notes:
 - awscli command to manually create and verfiy a user in an existing Cognito user pool: `aws cognito-idp admin-set-user-password --username hankcrumb --password Testing1234! --user-pool-id ca-central-1_YM6bo6X1E --permanent`
 
 ## Implement Custom Confirmation Page
-Successful signin with existing user in Cognito, hankcrumb. Though note that 
-![Proof of custom confirmation page confirmation 1](/assets/week3-proof-implement-custom-confirmation-page-1.png)
-![Proof of custom confirmation page confirmation 2](/assets/week3-proof-implement-custom-confirmation-page-2.png)
+Displays the email from Cognito with verification code. Beforehand, a new user - Nancy Drew, issue129@protonmail.com - was created through the Cruddur signup page.
 ![Proof of custom confirmation page confirmation 3](/assets/week3-proof-implement-custom-confirmation-page-3.jpeg)
 
-## Implement Custom Recovery Page
-Displays the email from Cognito with verification code. Beforehand, a new user - Nancy Drew, issue129@protonmail.com - was created through the Cruddur signup page.
-![Proof of custom recovery page implementation 3](/assets/week3-proof-implement-custom-recovery-page-3.jpeg)
-
-Displays Cruddur recovery page. This page displays immediately after signing up. The confirmation code is in an email sent to the user. See above image.
-![Proof of custom recovery page implementation 1](/assets/week3-proof-implement-custom-recovery-page-1.png)
+Displays Cruddur confirmation page. This page displays immediately after signup. The confirmation code is in an email sent to the user. See above image.
+![Proof of custom confirmation page confirmation 1](/assets/week3-proof-implement-custom-confirmation-page-1.png)
 
 Displays that user that signed up on Cruddur - Nancy Drew - is verified.
+![Proof of custom confirmation page confirmation 2](/assets/week3-proof-implement-custom-confirmation-page-2.png)
+
+## Implement Custom Recovery Page
+Displays emailf rom Cognito with password reset code. The email is generated after a user uses the 'Forgot Password' page on Cruddur to reset their password.
+![Proof of custom recovery page implementation 3](/assets/week3-proof-implement-custom-recovery-page-3.jpeg)
+
+Displays Cruddur 'Recovery your Password' page. The page displays after using the 'Forgot Password' page to send reset the user password.
+![Proof of custom recovery page implementation 1](/assets/week3-proof-implement-custom-recovery-page-1.png)
+
+Displays page after successfully resetting the password.
 ![Proof of custom recovery page implementation 2](/assets/week3-proof-implement-custom-recovery-page-2.png)
 
 ## Watch about different approaches to verifying JWTs
