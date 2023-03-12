@@ -50,6 +50,6 @@ Notes:
 
 ![Proof of custom recovery page implementation 2](/assets/week3-proof-implement-custom-recovery-page-2.png)
 
-![Proof of custom confirmation page confirmation 3](/assets/week3-proof-implement-custom-confirmation-page-3.jpeg)
+![Proof of custom recovery page implementation 3](/assets/week3-proof-implement-custom-recovery-page-3.jpeg)
 
 ## Watch about different approaches to verifying JWTs
