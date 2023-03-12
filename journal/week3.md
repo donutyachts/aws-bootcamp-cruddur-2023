@@ -1,23 +1,27 @@
 # Week 3 — Decentralized Authentication
 
 ## Watched Ashish's Week 3 - Decenteralized Authentication
+Notes:
+- [User Pool vs. Identify Pool](https://youtu.be/tEJIeII66pY?t=510)
+    - Cognito User Pool = auth using social media sites to offload need to store credentials or direct u/p access to app with storing credentials
+    - Cognito Identity Pool = access AWS services using credentials of a third-party
+- Lifecycle Management
+ - User: employee access to apps within organization from new hire to offboarding (leaving organization)
+ - Token: temporary access via token and status (i.e. creation, suspension, etc.) of token
 
 ## Watch Chirag Week 3 - Spending Considerations (Not yet posted)
+Notes:
+- Video not posted in student portal.
 
 ## Setup Cognito User Pool
-![Proof of Cognito user pool creation](/assets/week3-proof-setup-cognito-user-pool.png)
-
+![Proof of Cognito user pool creation 0](/assets/week3-proof-setup-cognito-user-pool.png)
 ![Proof of Cognito user pool creation 1](/assets/week3-proof-setup-cognito-user-pool-1.png)
-
 ![Proof of Cognito user pool creation 2](/assets/week3-proof-setup-cognito-user-pool-2.png)
-
 ![Proof of Cognito user pool creation 3](/assets/week3-proof-setup-cognito-user-pool-3.jpeg)
 
 ## Implement Custom Signin Page
-![Proof of custom signin page implementation](/assets/week3-proof-implement-custom-signin-page.png)
-
+![Proof of custom signin page implementation 0](/assets/week3-proof-implement-custom-signin-page.png)
 ![Proof of custom signin page implementation 1](/assets/week3-proof-implement-custom-signin-page-1.png)
-
 ![Proof of custom signin page implementation 2](/assets/week3-proof-implement-custom-signin-page-2.png)
 
 Notes:
@@ -28,11 +32,8 @@ Notes:
 
 ## Implement Custom Signup Page 
 ![Proof of custom signup page implementation 1](/assets/week3-proof-implement-custom-signup-page-1.png)
-
 ![Proof of custom signup page implementation 2](/assets/week3-proof-implement-custom-signup-page-2.png)
-
 ![Proof of custom signup page implementation 3](/assets/week3-proof-implement-custom-signup-page-3.png)
-
 ![Proof of custom signup page implementation 4](/assets/week3-proof-implement-custom-signup-page-4.png)
 
 Notes:
@@ -40,16 +41,12 @@ Notes:
 
 ## Implement Custom Confirmation Page
 ![Proof of custom confirmation page confirmation 1](/assets/week3-proof-implement-custom-confirmation-page-1.png)
-
 ![Proof of custom confirmation page confirmation 2](/assets/week3-proof-implement-custom-confirmation-page-2.png)
-
 ![Proof of custom confirmation page confirmation 3](/assets/week3-proof-implement-custom-confirmation-page-3.jpeg)
 
 ## Implement Custom Recovery Page
 ![Proof of custom recovery page implementation 1](/assets/week3-proof-implement-custom-recovery-page-1.png)
-
 ![Proof of custom recovery page implementation 2](/assets/week3-proof-implement-custom-recovery-page-2.png)
-
 ![Proof of custom recovery page implementation 3](/assets/week3-proof-implement-custom-recovery-page-3.jpeg)
 
 ## Watch about different approaches to verifying JWTs
