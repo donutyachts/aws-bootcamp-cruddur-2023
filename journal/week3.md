@@ -14,11 +14,11 @@
 ![Proof of Cognito user pool creation 3](/assets/week3-proof-setup-cognito-user-pool-3.jpeg)
 
 ## Implement Custom Signin Page
-![Proof of custom signin page implementation](/assets/week3-implement-custom-signin-page.png)
+![Proof of custom signin page implementation](/assets/week3-proof-implement-custom-signin-page.png)
 
-![Proof of custom signin page implementation 1](/assets/week3-implement-custom-signin-page-1.png)
+![Proof of custom signin page implementation 1](/assets/week3-proof-implement-custom-signin-page-1.png)
 
-![Proof of custom signin page implementation 2](/assets/week3-implement-custom-signin-page-2.png)
+![Proof of custom signin page implementation 2](/assets/week3-proof-implement-custom-signin-page-2.png)
 
 Notes:
 - Aaargh! Typos. DEFALT rather than DEFAULT.
