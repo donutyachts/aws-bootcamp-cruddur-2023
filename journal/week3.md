@@ -23,13 +23,33 @@
 Notes:
 - Aaargh! Typos. DEFALT rather than DEFAULT.
 - npm i aws-amplify --save
-    - the --save automatically adds aws-amplify as a dependency to package.json
+    - The --save automatically adds aws-amplify as a dependency to package.json
 - The error message differs from browser to browser. For example, the above screenshots displays the error message in FF and Chrome.
 
 ## Implement Custom Signup Page 
+![Proof of custom signup page implementation 1](/assets/week3-proof-implement-custom-signup-page-1.png)
+
+![Proof of custom signup page implementation 2](/assets/week3-proof-implement-custom-signup-page-2.png)
+
+![Proof of custom signup page implementation 3](/assets/week3-proof-implement-custom-signup-page-3.png)
+
+![Proof of custom signup page implementation 4](/assets/week3-proof-implement-custom-signup-page-4.png)
+
+Notes:
+- awscli command to manually create and verfiy a user in an existing Cognito user pool: `aws cognito-idp admin-set-user-password --username hankcrumb --password Testing1234! --user-pool-id ca-central-1_YM6bo6X1E --permanent`
 
 ## Implement Custom Confirmation Page
+![Proof of custom confirmation page confirmation 1](/assets/week3-proof-implement-custom-confirmation-page-1.png)
+
+![Proof of custom confirmation page confirmation 2](/assets/week3-proof-implement-custom-confirmation-page-2.png)
+
+![Proof of custom confirmation page confirmation 3](/assets/week3-proof-implement-custom-confirmation-page-3.jpeg)
 
 ## Implement Custom Recovery Page
+![Proof of custom recovery page implementation 1](/assets/week3-proof-implement-custom-recovery-page-1.png)
+
+![Proof of custom recovery page implementation 2](/assets/week3-proof-implement-custom-recovery-page-2.png)
+
+![Proof of custom confirmation page confirmation 3](/assets/week3-proof-implement-custom-confirmation-page-3.jpeg)
 
 ## Watch about different approaches to verifying JWTs
