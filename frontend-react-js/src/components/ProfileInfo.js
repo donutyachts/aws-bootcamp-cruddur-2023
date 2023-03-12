@@ -2,13 +2,15 @@ import './ProfileInfo.css';
 import {ReactComponent as ElipsesIcon} from './svg/elipses.svg';
 import React from "react";
 
+// AWS Cognito implementation
 import { Auth } from 'aws-amplify';
-
-// [TODO] Authenication
-import Cookies from 'js-cookie'
 
 export default function ProfileInfo(props) {
   const [popped, setPopped] = React.useState(false);
+
+  const click_pop = (event) => {
+    setPopped(!popped)
+  }
 
   const signOut = async () => {
     try {
@@ -17,10 +19,6 @@ export default function ProfileInfo(props) {
     } catch (error) {
         console.log('error signing out: ', error);
     }
-  }
-
-  const click_pop = (event) => {
-    setPopped(!popped)
   }
 
   const classes = () => {
